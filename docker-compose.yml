@@ -1,4 +1,5 @@
-version: "2"
+---
+version: "3"
 
 services:
   mariadb:
@@ -39,7 +40,7 @@ services:
 #    image: wodby/drupal-php:5.6-3.3.1
 #    image: wodby/drupal-php:5.3-3.3.1
 # 3. Images without Drupal – wodby/drupal-php:[PHP_VERSION]-[STABILITY_TAG]. Version for development (--enable-debug)
-     image: wodby/drupal-php:7.1-dev-3.3.1
+    image: wodby/drupal-php:7.1-dev-3.3.1
 #    image: wodby/drupal-php:7.0-dev-3.3.1
 #    image: wodby/drupal-php:5.6-dev-3.3.1
 #    image: wodby/drupal-php:5.3-dev-3.3.1
